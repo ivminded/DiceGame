@@ -7,7 +7,6 @@
 .dice {
   text-align: center;
   display: inline-block;
-
 }
 
 body {
@@ -30,6 +29,7 @@ p {
 
 img {
   width: 80%;
+
 }
 
 footer {
@@ -39,3 +39,29 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+#startGame {
+ 
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-family: 'Lobster', cursive;
+  background-color: #318f70;
+  text-shadow: 3px 0 #232931;
+  box-shadow: 3px 0 #232931;
+  font-size: 2rem;
+  color: #FAF1D8;
+  border: none;
+
+  }
+  
+  #startGame:hover {
+  background-color: #4ECCA3;
+    text-decoration: none;
+  }
+  .button{
+
+      padding: 50px 20px 0px 20px;
+  }
+

@@ -1,3 +1,5 @@
+function startGame(){
+
 var randomNumber1 = Math.floor(Math.random(6) * 6) + 1;
 var randomDiceImage = "dice"+randomNumber1+".png";
 var randomImageSource = "images/"+randomDiceImage;
@@ -19,3 +21,7 @@ if(randomNumber1 > randomNumber2){
 }else{
     document.querySelector("h1").innerHTML = "Draw!";
 }
+   
+}
+
+
