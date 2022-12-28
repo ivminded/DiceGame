@@ -39,7 +39,7 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
-#startGame {
+.startGame {
  
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
@@ -56,7 +56,7 @@ footer {
 
   }
   
-  #startGame:hover {
+  .startGame:hover {
   background-color: #4ECCA3;
     text-decoration: none;
   }
